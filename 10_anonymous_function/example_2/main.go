@@ -12,7 +12,7 @@ func operate(x int, y int, operation func(int, int) int) int {
 }
 
 func main() {
-	result := operate(10, 20, func(x int, y int) int {  // this is also called function statement
+	result := operate(10, 20, func(x int, y int) int {  // this is also called function statement or function expression
 		return x + y
 	})
 	fmt.Println(result)
