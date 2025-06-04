@@ -7,7 +7,7 @@ package main
 
 import "fmt"
 
-func call() func(x int, y int) int { // this is callback function
+func call() func(x int, y int) int { // this is not a callback function
 	return add
 }
 

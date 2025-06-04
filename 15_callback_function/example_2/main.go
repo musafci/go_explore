@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // Function that accepts a callback
-func execute(x int, y int, callback func(int, int) int) int {
+func execute(x int, y int, callback func(int, int) int) int { // this is a callback function
 	return callback(x, y)
 }
 
