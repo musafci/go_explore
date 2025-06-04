@@ -13,7 +13,7 @@ func main() {
 	// b = "Hello" //not allowed because b is already defined as float32
 
 	var c string = "Hello"
-	// c = "World" //not allowed because c is already defined as string
+	// c = 123 //not allowed because c is already defined as string
 
 	const pi = 3.1416
 	// pi = 3.14159265358979323846264338327950288419716939937510 //not allowed because pi is already defined as constant
